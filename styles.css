@@ -7,6 +7,35 @@ body {
     color: #26e0c4;
 }
 
+.separator {
+    border-top: 2px solid #26e0c4;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#content {
+    margin-left: 25px;
+}
+
+/*-- BUTTONS --*/
+.btn-outline-primary {
+    color: white;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 10px;
+    width: 40%;
+    height: 90%;
+}
+
+.btn:hover {
+    border-color: #26e0c4;
+    background-color: transparent;
+}
+/*-- END BUTTONS --*/
+
 /*-- NAVIGATOR --*/
 .nav-link.active, .nav-link:hover {
     color: #26e0c4;
@@ -50,4 +79,18 @@ body {
 	50% {
 		background-color: white;
 	}
+}
+
+/*-- CUSTOM BREAKPOINTS --*/
+/*-- Extra small devices (portrait phones, less than 576px) --*/
+@media (max-width: 575.98px) {
+    .btn-outline-primary {
+        width: 100%
+
+    }
+
+    .btn {
+        margin-bottom: 10px;
+        height: 60%;
+    }
 }
