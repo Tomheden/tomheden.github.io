@@ -1,0 +1,53 @@
+body {
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: #121212;
+}
+
+.highlight {
+    color: #26e0c4;
+}
+
+/*-- NAVIGATOR --*/
+.nav-link.active, .nav-link:hover {
+    color: #26e0c4;
+}
+
+.nav-link {
+    color: #a3a3a3;
+}
+/*-- END NAVIGATOR --*/
+
+#container {
+	text-align: center;
+}
+
+#sub {
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+#text {
+    font-size: 50px;
+	display: inline-block;
+	vertical-align: middle;
+	letter-spacing: 2px;
+}
+
+#cursor {
+    margin-top: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: white;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to {
+		background-color: transparent
+	}
+	50% {
+		background-color: white;
+	}
+}
