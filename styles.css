@@ -36,6 +36,7 @@ button:active, button:focus {
     border-radius: 10px;
     width: 49%;
     height: 100px;
+    margin-bottom: 10px;
 }
 
 .btn-outline-primary:active, .btn-outline-primary:focus {

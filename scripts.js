@@ -2,7 +2,9 @@ var _LIST = [
 	"¡Bienvenido!",
 	"Welcome!",
 	"Benvenuto!",
-	"Bienvenue!"
+	"Willkommen!",
+	"Bienvenue!",
+	"Velkommen!"
 ];
 
 // Current sentence being processed
